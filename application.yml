@@ -1,12 +1,3 @@
-spring:  
-  profiles: 
-    active: 
-    - dev 
-spring: 
-   profiles: dev 
-   application:
-     name: springcloud-study-config-atguigu-dev
-spring:    
-   profiles: test 
-   application: 
-     name: springcloud-study-config-atguigu-test
+{ spring: 
+   { profiles: 'dev',
+     application: { name: 'springcloud-study-config-atguigu-dev' } } }
